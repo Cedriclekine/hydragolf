@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de confidentialite - Hydragolf</title>
+    <style>
+        :root {
+            --bg: #eef6ff;
+            --bg-alt: #d7eaff;
+            --surface: rgba(255, 255, 255, 0.92);
+            --text: #15304d;
+            --muted: #55708a;
+            --accent: #2c74c9;
+            --accent-deep: #184f94;
+            --border: rgba(21, 48, 77, 0.10);
+            --shadow: 0 18px 40px rgba(24, 79, 148, 0.10);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            color: var(--text);
+            background:
+                radial-gradient(circle at top left, rgba(255, 255, 255, 0.95), transparent 35%),
+                linear-gradient(135deg, var(--bg), var(--bg-alt));
+            line-height: 1.65;
+        }
+
+        .wrap {
+            width: min(920px, calc(100% - 32px));
+            margin: 0 auto;
+            padding: 40px 0 64px;
+        }
+
+        .hero {
+            padding: 32px;
+            border-radius: 28px;
+            color: white;
+            background: linear-gradient(135deg, var(--accent-deep), var(--accent));
+            box-shadow: var(--shadow);
+        }
+
+        .hero h1 {
+            margin: 0 0 12px;
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1.1;
+        }
+
+        .hero p {
+            margin: 0;
+            max-width: 720px;
+            color: rgba(255, 255, 255, 0.88);
+        }
+
+        .meta {
+            margin-top: 16px;
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.78);
+        }
+
+        .grid {
+            display: grid;
+            gap: 18px;
+            margin-top: 24px;
+        }
+
+        .card {
+            padding: 22px 24px;
+            border-radius: 22px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            box-shadow: 0 10px 24px rgba(21, 48, 77, 0.06);
+        }
+
+        h2 {
+            margin: 0 0 10px;
+            font-size: 1.15rem;
+            color: var(--accent-deep);
+        }
+
+        p, li {
+            color: var(--muted);
+            font-size: 1rem;
+        }
+
+        ul {
+            margin: 10px 0 0 20px;
+            padding: 0;
+        }
+
+        .footer {
+            margin-top: 22px;
+            padding: 18px 20px;
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.75);
+            border: 1px dashed var(--border);
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        a {
+            color: var(--accent-deep);
+        }
+
+        @media (max-width: 640px) {
+            .wrap {
+                width: min(100% - 20px, 920px);
+                padding-top: 20px;
+            }
+
+            .hero,
+            .card {
+                padding: 20px;
+                border-radius: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="wrap">
+        <section class="hero">
+            <h1>Politique de confidentialite</h1>
+            <p>
+                Cette politique explique quelles donnees Hydragolf peut traiter, dans quel but,
+                et quels controles restent a votre disposition lorsque vous utilisez l'application.
+            </p>
+            <div class="meta">Derniere mise a jour : 16 septembre 2025</div>
+        </section>
+
+        <section class="grid">
+            <article class="card">
+                <h2>1. Responsable du traitement</h2>
+                <p>
+                    L'application Hydragolf est editee par le proprietaire du depot GitHub/publication associee.
+                    Avant mise en ligne, remplacez cette mention par votre nom, votre raison sociale ou votre marque,
+                    ainsi que vos coordonnees de contact.
+                </p>
+            </article>
+
+            <article class="card">
+                <h2>2. Donnees susceptibles d'etre traitees</h2>
+                <p>Selon les fonctionnalites que vous activez, Hydragolf peut traiter :</p>
+                <ul>
+                    <li>les informations de profil saisies manuellement, comme le prenom, l'age, la taille ou le poids ;</li>
+                    <li>les donnees de suivi d'hydratation, de nutrition, de sessions de golf et de rappels ;</li>
+                    <li>les preferences de l'application, y compris la langue, les objectifs et les reglages de notifications ;</li>
+                    <li>les donnees Apple Health auxquelles vous donnez explicitement acces, comme le poids, la taille, l'age, la frequence cardiaque, l'activite, le sommeil ou l'hydratation ;</li>
+                    <li>les donnees liees aux integrations systeme, par exemple calendrier, widgets, Live Activities ou Apple Watch.</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h2>3. Finalites d'utilisation</h2>
+                <p>Ces donnees sont utilisees pour :</p>
+                <ul>
+                    <li>calculer des recommandations d'hydratation et de nutrition personnalisees ;</li>
+                    <li>suivre votre progression dans l'application, les widgets et les activites en direct ;</li>
+                    <li>planifier vos rappels et vos sessions de golf ;</li>
+                    <li>synchroniser certaines informations avec Apple Health ou d'autres services systeme lorsque vous l'autorisez ;</li>
+                    <li>ameliorer la fiabilite et le bon fonctionnement general de l'application.</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h2>4. Base legale</h2>
+                <p>
+                    Le traitement repose sur votre consentement lorsqu'une autorisation systeme est demandee
+                    (par exemple Apple Health, notifications ou calendrier), et sur la necessite de fournir
+                    les fonctionnalites de l'application pour les donnees strictement requises a son fonctionnement.
+                </p>
+            </article>
+
+            <article class="card">
+                <h2>5. Stockage des donnees</h2>
+                <p>
+                    Les donnees de l'application sont principalement stockees localement sur votre appareil.
+                    Lorsqu'une integration Apple est activee, certaines informations peuvent etre echangees
+                    avec les frameworks systeme concernes selon les permissions que vous avez accordees.
+                </p>
+            </article>
+
+            <article class="card">
+                <h2>6. Partage des donnees</h2>
+                <p>
+                    Hydragolf ne vend pas vos donnees personnelles. Les informations ne sont partagees
+                    qu'avec les services necessaires au fonctionnement des integrations activees par vos soins,
+                    ou lorsqu'une obligation legale l'impose.
+                </p>
+            </article>
+
+            <article class="card">
+                <h2>7. Duree de conservation</h2>
+                <p>
+                    Les donnees conservees localement restent presentes tant que vous utilisez l'application
+                    ou jusqu'a leur suppression manuelle. La desinstallation de l'application supprime les
+                    donnees locales associees, sous reserve des comportements standards d'iOS et des services Apple.
+                </p>
+            </article>
+
+            <article class="card">
+                <h2>8. Vos droits</h2>
+                <p>Vous pouvez a tout moment :</p>
+                <ul>
+                    <li>modifier ou supprimer les informations saisies dans l'application ;</li>
+                    <li>retirer les autorisations Apple Health, calendrier ou notifications depuis les reglages systeme ;</li>
+                    <li>supprimer les donnees de sante directement dans l'application Sante d'Apple ;</li>
+                    <li>nous contacter pour toute question relative a la confidentialite.</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h2>9. Securite</h2>
+                <p>
+                    Des mesures raisonnables sont prises pour limiter l'acces non autorise aux donnees traitees.
+                    Vous restez responsable de la securisation de votre appareil, notamment via un code de verrouillage,
+                    Face ID ou Touch ID, et des mises a jour systeme.
+                </p>
+            </article>
+
+            <article class="card">
+                <h2>10. Donnees de sante</h2>
+                <p>
+                    Les donnees provenant d'Apple Health sont utilisees uniquement pour fournir les fonctionnalites
+                    d'hydratation, de suivi et de personnalisation de Hydragolf. Elles ne sont pas utilisees a des
+                    fins publicitaires, marketing ou de courtage de donnees.
+                </p>
+            </article>
+
+            <article class="card">
+                <h2>11. Contact</h2>
+                <p>
+                    Pour toute question sur cette politique de confidentialite, remplacez cette adresse par votre
+                    veritable contact avant publication :
+                    <a href="mailto:privacy@hydragolf.app">privacy@hydragolf.app</a>
+                </p>
+            </article>
+        </section>
+
+        <div class="footer">
+            A adapter avant publication : nom de l'editeur, adresse email, eventuelle adresse postale,
+            date de mise a jour et toute mention legale specifique a votre situation.
+        </div>
+    </main>
+</body>
+</html>
